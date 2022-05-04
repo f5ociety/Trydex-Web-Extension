@@ -1,1 +1,1 @@
-# Trydex-Web-Extension
+# Trydex Web Extension
