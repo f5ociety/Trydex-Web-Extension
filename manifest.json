@@ -1,32 +1,35 @@
 {
-    "manifest_version": 2,
-    "name": "Trydex",
-    "version": "1.5",
-    "author": "Erghel, LencoDigitexer, SeryiBaran",
-    "default_locale": "en",
-    "description": "__MSG_extensionDescription__",
-    "icons": {
-      "48": "..."
-    },
-    "background": {
-      "scripts": ["diswebrtc.js"]
-    },
-    "browser_action": {
-      "default_title": "Trydex"
-    },
-    "browser_specific_settings": {
-      "gecko": {
-        "strict_min_version": "64.0"
-      }
-    },
-    "chrome_settings_overrides": {
-      "search_provider": {
-        "name": "...",
-        "keyword": "@try, @tdex, @trydex",
-        "search_url": "{searchTerms}",
-        "favicon_url": "...",
-        "suggest_url": "{searchTerms}",
-        "is_default": true
-      }
+  "manifest_version": 2,
+  "name": "Trydex",
+  "version": "1.5",
+  "author": "Erghel, LencoDigitexer, SeryiBaran",
+  "default_locale": "en",
+  "description": "__MSG_extensionDescription__",
+  "icons": {
+    "48": "..."
+  },
+  "background": {
+    "scripts": ["diswebrtc.js"]
+  },
+  "browser_action": {
+    "default_title": "Trydex"
+  },
+  "permissions":[
+    "privacy"
+],
+  "browser_specific_settings": {
+    "gecko": {
+      "strict_min_version": "64.0"
+    }
+  },
+  "chrome_settings_overrides": {
+    "search_provider": {
+      "name": "...",
+      "keyword": "@try, @tdex, @trydex",
+      "search_url": "{searchTerms}",
+      "favicon_url": "...",
+      "suggest_url": "{searchTerms}",
+      "is_default": true
     }
   }
+}
