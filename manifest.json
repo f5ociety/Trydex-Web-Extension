@@ -2,7 +2,7 @@
   "manifest_version": 2,
   "name": "Trydex",
   "version": "1.5",
-  "author": "Erghel, LencoDigitexer, SeryiBaran",
+  "author": "f5ocity",
   "default_locale": "en",
   "description": "__MSG_extensionDescription__",
   "icons": {
