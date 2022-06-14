@@ -1,6 +1,6 @@
 {
   "manifest_version": 2,
-  "name": "Trydex",
+  "name": "Trydex - privacy search",
   "version": "1.5",
   "author": "f5ocity",
   "default_locale": "en",
@@ -26,9 +26,9 @@
     "search_provider": {
       "name": "...",
       "keyword": "@try, @tdex, @trydex",
-      "search_url": "{searchTerms}",
+      "search_url": "http://trydex.tk:/search?q={searchTerms}",
       "favicon_url": "...",
-      "suggest_url": "{searchTerms}",
+      "suggest_url": "https://searx.be/autocompleter?q={searchTerms}",
       "is_default": true
     }
   }
